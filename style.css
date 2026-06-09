@@ -11,7 +11,6 @@ body {
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    background-attachment:fixed;
 }
 .envelope {
     width:360px;
@@ -162,5 +161,48 @@ body {
     }
     #countdown {
         font-size:12px;
+    }
+}
+@media(min-width:430px) and (max-width:800px) {
+    .envelope {
+        width:300px;
+        height:220px;
+    }
+    .envelope-box {
+        padding:25px;
+    }
+    .text {
+        font-size:19px;
+    }
+    .ruqaa{
+        font-family:'aref ruqaa',serif;
+        font-size:25px;
+        margin-top:10px;
+    }
+    h1 {
+        margin-top:5px;
+        font-size:30px;
+    }
+    h3{
+        font-size:18px;
+    }
+    .ampersand{
+        font-size:45px;
+    }
+    .groom,.bride{
+        font-size:30px;
+    }
+    h2{
+        font-size:20px;
+    }
+    .location-btn {
+        font-size:18px;
+        padding:5px 9px;
+    }
+    .info {
+        font-size:18px;
+    }
+    #countdown {
+        font-size:18px;
     }
 }
