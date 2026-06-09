@@ -1,0 +1,126 @@
+body {
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:radial-gradient(circle at top,#fff8e1,#f5efe0);
+    font-family:Tahoma;
+    background-image:url('1.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.envelope {
+    width:360px;
+    height:240px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+.envelope-box {
+    width:100%;
+    height:100%;
+    background:linear-gradient(145deg,#d4af37,#b8860b);
+    border-radius:18px;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    animation:float 3s ease-in-out infinite;
+}
+.seal {
+    font-size:40px;
+    margin-bottom:10px;
+    filter:drop-shadow(0 0 5px rgba(0,0,0,.2));
+}
+.text {
+    color:white;
+    font-size:20px;
+    margin-bottom:20px;
+}
+.open-btn {
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#b8860b;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+.open-btn:hover {
+    transform:scale(1.08);
+    background:#fff3c4;
+}
+@keyframes float {
+    0% { transform:translateY(0px); }
+    50% { transform:translateY(-8px); }
+    100% { transform:translateY(0px); }
+}
+.card {
+    width:90%;
+    max-width:750px;
+    background-image:url('2.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(0,0,0,.15);
+    text-align:center;
+}
+.hidden {
+    display:none;
+}
+.names {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin:35px 0;
+}
+.groom,.bride {
+    font-size:42px;
+    font-weight:bold;
+    color:#d4af37;
+}
+.ampersand {
+    font-family:'Cormorant Garamond',serif;
+    font-size:80px;
+    color:#d4af37;
+}
+/* التفاصيل */
+.info {
+    font-size: 22px;
+    margin: 18px 0;
+}
+.info strong {
+    color: #b8860b;
+}
+/* زر اللوكيشن */
+.location-btn {
+    display:inline-block;
+    font-size:18px;
+    padding:10px 14px;
+    background:#b8860b;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+.location-btn:hover {
+    color:black;
+}
+/* عداد */
+#countdown {
+    font-size:25px;
+    font-weight:bold;
+    color:#8b0000;
+}
