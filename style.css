@@ -78,7 +78,7 @@ body {
 }
 .welcome {
     font-family :sans-serif;
-    font-size:15px;
+    font-size:35px;
 }
 .names {
     display:flex;
@@ -158,6 +158,10 @@ body::-webkit-scrollbar-thumb{
     h3{
         font-size:12px;
     }
+    .welcome {
+    font-family :sans-serif;
+    font-size:16px;
+   }
     .ampersand{
         font-size:35px;
     }
@@ -199,6 +203,10 @@ body::-webkit-scrollbar-thumb{
     }
     h3{
         font-size:18px;
+    }
+    .welcome {
+    font-family :sans-serif;
+    font-size:26px;
     }
     .ampersand{
         font-size:45px;
