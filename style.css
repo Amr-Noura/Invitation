@@ -78,6 +78,7 @@ body {
 }
 .welcome {
     font-family :sans-serif;
+    font-size:15px;
 }
 .names {
     display:flex;

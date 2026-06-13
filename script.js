@@ -23,7 +23,7 @@ function updateCountdown() {
     const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
     document.getElementById("countdown").innerHTML =
-        `Days: ${days} Hours: ${hours} Minutes: ${minutes} Seconds: ${seconds}`;
+        `Days:${days} Hours:${hours} Minutes:${minutes} Seconds:${seconds}`;
 }
 updateCountdown();
 setInterval(updateCountdown, 1000);
