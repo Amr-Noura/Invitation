@@ -76,6 +76,9 @@ body {
 .hidden {
     display:none;
 }
+.welcome {
+    font-family :sans-serif;
+}
 .names {
     display:flex;
     justify-content:center;
@@ -96,6 +99,7 @@ body {
 /* التفاصيل */
 .info {
     font-size: 22px;
+    font-family:sans-serif ;
     margin: 18px 0;
 }
 .info strong {
