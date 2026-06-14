@@ -6,8 +6,14 @@ function playMusic() {
     });
 }
 function openEnvelope() {
+
     document.getElementById("envelope").style.display = "none";
-    document.getElementById("invitation").classList.remove("hidden");
+
+    const invitation = document.getElementById("invitation");
+
+    invitation.classList.remove("hidden");
+    invitation.classList.add("show-invitation");
+
     playMusic();
 }
 function updateCountdown() {
